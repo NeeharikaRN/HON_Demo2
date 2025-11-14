@@ -13,7 +13,7 @@
   - name: Copying the index.html file
     copy:
       src: index.html
-      dest: /usr/share/nginx/html/
+      dest: /usr/share/nginx/html/index.html
   - name: Start the service
     service:
       name: nginx
